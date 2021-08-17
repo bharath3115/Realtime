@@ -1,0 +1,149 @@
+    1  apt update
+    2  clear
+    3  apt install docker.io -y
+    4  systemctl start Docker
+    5  systemctl start docker service
+    6  service docker status
+    7  clear
+    8  systemctl enable docker
+    9  vi docker-compose.yml
+   10  apt install docker-compose
+   11  apt update
+   12  clear
+   13  docker compose up -d
+   14  docker-compose up -d
+   15  clear
+   16  history
+   17  docker swarm init --advertise-addr 18.117.230.150
+   18  clear
+   19  dpcker nod els
+   20  docker node ls
+   21  docker ps 
+   22  clear
+   23  docker service create --name myservice-1 --replicas 1 --publish 81:80 nginx
+   24  docker service rm myservice-1
+   25  docker service create --name myservice-1 --replicas 1 --publish 81:8080 nginx
+   26  docker service rm myservice-1
+   27  docker service create --name myservice-1 --replicas 1 --publish 8081:80 nginx
+   28  clear
+   29  docker service rm myservice-1
+   30  docker service create --name workdone -p 8081:80 --replicas 1 nginx
+   31  docker ps
+   32  docker service create --name workdone1 -p 8082:8080 --replicas 2 httpd
+   33  clear
+   34  docke rnod els
+   35  docker node ls
+   36  docker swarm leave
+   37  docker swarm leave --force
+   38  docker swarm init --advertise-addr 10.0.0.219
+   39  docker service create --name workdone1 -p 8082:8080 --replicas 3 httpd
+   40  docker ps
+   41  docker service ps workdone1
+   42  docker swarm leave --force
+   43  docker ps
+   44  docker swarm init --advertise-addr 10.0.0.219
+   45  docker node ls
+   46  clear
+   47  docker service create --name work -p 8082:80 --replicas 3 nginx
+   48  docker ps
+   49  docker service create --name workdone1 -p 8083:8080 --replicas 3 httpd
+   50  apt update
+   51  sudo yum install -y nfs-utils
+   52  apt get install -y nfs-utils
+   53  apt- get install -y nfs-utils
+   54  apt install -y nfs-utils
+   55  apt install -y nfs utils
+   56  clear
+   57  git clone https://github.com/aws/efs-utils
+   58  sudo apt-get -y install binutils
+   59  clear
+   60  cd efs-utils
+   61  ./build-deb.sh
+   62  clear
+   63  sudo apt-get -y install ./build/amazon-efs-utils*deb
+   64  sudo mkdir /mnt/efs
+   65  sudo chmod 775 /mnt/efs
+   66  sudo chown -R $USER /mnt/efs
+   67  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-7967b002.efs.us-east-2.amazonaws.com: /mnt/efs
+   68  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-7967b002.efs.us-east-2.amazonaws.com:/ /mnt/efs
+   69  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-7967b002.efs.us-east-2.amazonaws.com: /efs
+   70  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-7967b002.efs.us-east-2.amazonaws.com: mnt/efs
+   71  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-7967b002.efs.us-east-2.amazonaws.com:/ mnt/efs
+   72  rm -rf /mnt/efs
+   73  clear
+   74  sudo apt-get update
+   75  git clone https://github.com/aws/efs-utils
+   76  sudo apt-get -y install binutils
+   77  cd efs-utils
+   78  ./build-deb.sh
+   79  clear
+   80  sudo apt-get -y install ./build/amazon-efs-utils*deb
+   81  sudo mkdir /efs
+   82  sudo chmod 775 /efs
+   83  sudo chown -R $USER /efs
+   84  apt-get update && apt-get install nfs-common
+   85  apt-get update && apt-get install nfs-common -y
+   86  clear
+   87  nfsstat --version
+   88  cd ~
+   89  mkdir -p mnt/src
+   90  cd mnt
+   91  cd src
+   92  pwd
+   93  sudo mount -t efs -o tls fs-7967b002:/ /root/mnt/src
+   94  df -h
+   95  clear
+   96  sudo mount -t nfs4 10.0.0.74:/ /root/mnt/src
+   97  df -h
+   98  mkdir mount
+   99  pwd
+  100  sudo mount -t efs -o tls fs-7967b002:/ mount
+  101  history
+  102  clear
+  103  ls
+  104  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-0695437d.efs.us-east-2.amazonaws.com:/ efs-utils
+  105  history
+  106  ls
+  107  cat >firstfile
+  108  cd efs-utils
+  109  ls
+  110  cd ..
+  111  mkdir mount
+  112  sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-0695437d.efs.us-east-2.amazonaws.com:/ mount
+  113  cd mount
+  114  ls
+  115  rm -rf file1 file2
+  116  ls
+  117  cat >1.java
+  118  cd ..
+  119  vi docker-compose.yml
+  120  docker images
+  121  docker pull mongo
+  122  clear
+  123  docker images
+  124  docker run -itd --name mongodb mongo
+  125  docker ps
+  126  docker rm -rf 1f05f577a777
+  127  docker rm 1f05f577a777 force
+  128  docker rm 1f05f577a777
+  129  docker stop 1f05f577a777
+  130  docker rm 1f05f577a777
+  131  docker ps
+  132  docker stop $(ps)
+  133  docker stop clear
+  134  clear
+  135  docker rm -f $(docker ps -a -q)
+  136  docker ps
+  137  docker service ls
+  138  docker service stop work
+  139  docker service rm work
+  140  docker service rm workdone1
+  141  docker ps
+  142  docker rm -f $(docker ps -a -q)
+  143  docker ps
+  144  docker images
+  145  docker rmi -f $(docker images)
+  146  docker images
+  147  vi docker-compose.yml
+  148  docker-compose up -d
+  149  history
