@@ -3,4 +3,7 @@
     3  mkdir efs
     4  sudo mount -t efs -o tls fs-0695437d:/ efs
     5  cd efs
+    6 mkdir mount
+    6 sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-0695437d.efs.us-east-2.amazonaws.com:/ mount
+    1  cd mount
    
