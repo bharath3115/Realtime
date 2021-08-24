@@ -1,0 +1,435 @@
+   1  vi docker-compose.yml\
+    2  vi docker-compose.yml
+    3  apt install docker-compose -y
+    4  docker-compose up -d
+    5  apt install docker-compose
+    6  apt get update -y
+    7  apt-get update -y
+    8  docker-compose up -d
+    9  apt install docker-compose
+   10  docker-compose up -d
+   11  docker ps
+   12  docker images
+   13  clear
+   14  docker volumes ls
+   15  netstat -tulpn
+   16  apt install net-tools
+   17  clear
+   18  netstat -tulpn
+   19  netstat -tulpn | grep docker
+   20  netstat -tulpn | grep db
+   21  clear
+   22  ls
+   23  dokcer ps
+   24  ls
+   25  docker images
+   26  docker ps
+   27  clear
+   28  cd downlaods
+   29  cd /downloads
+   30  cd /downloads/
+   31  ls
+   32  cd Downloads/
+   33  cd /Downloads
+   34  apt-get update
+   35  apt-get install unzip wget nodejs
+   36  clear
+   37  ls
+   38  mkdir /downloads/sonarqube -p
+   39  cd /downloads/sonarqube
+   40  wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
+   41  unzip sonar-scanner-cli-4.2.0.1873-linux.zip
+   42  mv sonar-scanner-4.2.0.1873-linux /opt/sonar-scanner
+   43  vi /opt/sonar-scanner/conf/sonar-scanner.properties
+   44  docker ps
+   45  docker ps
+   46  netstat -tupln
+   47  netstat -tupln docker
+   48  clear
+   49  netstat -tupln 9000
+   50  docker-compose up -d
+   51  docker ps
+   52  docker images
+   53  clear
+   54  docker ps
+   55  docker images
+   56  docker run -d -p 9000:9000 sonarqube
+   57  clear
+   58  docker ps
+   59  clear
+   60  cd ?downloads
+   61  cd /downloads
+   62  ls
+   63  cd ..
+   64  apt-get update
+   65  apt-get install unzip wget nodejs
+   66  clear
+   67  mkdir /downloads/sonarqube -p
+   68  cd /downloads/sonarqube
+   69  wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
+   70  unzip sonar-scanner-cli-4.2.0.1873-linux.zip
+   71  mv sonar-scanner-4.2.0.1873-linux /opt/sonar-scanner
+   72  clear
+   73  ls
+   74  mkdir /downloads/sonarqube -p
+   75  cd /downloads/sonarqube
+   76  wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
+   77  unzip sonar-scanner-cli-4.2.0.1873-linux.zip
+   78  mv sonar-scanner-4.2.0.1873-linux /opt/sonar-scanner
+   79  clear
+   80  ls
+   81  rm -rf sonar-scanner-cli-4.2.0.1873-linux.zip.2
+   82  vi /opt/sonar-scanner/conf/sonar-scanner.properties
+   83  vi /etc/profile.d/sonar-scanner.sh
+   84  reboot
+   85  docker ps
+   86  cd /download
+   87  cd downloads
+   88  ls
+   89  cd /download
+   90  cd /downloads
+   91  ls
+   92  clear
+   93  ls
+   94  cd simple-php-website-master
+   95  ls
+   96  git config --global user.name "BHarath Reddy"
+   97  git config --global user.email bharath311522@gmail.com
+   98  git init
+   99  git add .
+  100  git commit -m "initial commit"
+  101  clear
+  102  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  103  git push -u origin master
+  104  git push -u origin master --force
+  105  apt-get update
+  106  docke run -itd -p 9000:9000 sonarqube
+  107  apt install docker.i0 -y
+  108  apt get update
+  109  apt-get update
+  110  clear
+  111  sudo apt install docker.i0 -y
+  112  sudo apt install docker.io -y
+  113  docke run -itd -p 9000:9000 sonarqube
+  114  docker run -itd -p 9000:9000 sonarqube
+  115  clear
+  116  docker ps
+  117  cd downloads
+  118  ls
+  119  docker ps
+  120  dcoker images
+  121  docker ps
+  122  docker images
+  123  docker run -itd -p 9000:9000 sonarqube
+  124  docker ps
+  125  clear
+  126  docker ps
+  127  netstat -tulpn | grep 9000
+  128  netstat -tulpn | grep docker
+  129  netstat -tulpn
+  130  clear
+  131  docker ps
+  132  docker images
+  133  docker run -rf c12f16fa5408
+  134  docker run -rf sonarqube
+  135  docker run -i -rf sonarqube
+  136  docker run -rfi sonarqube
+  137  clear
+  138  docker ps
+  139  root@ip-172-31-13-173:/home/ubuntu#
+  140  docker ps
+  141  docker run -d -p 9000:9000 sonarqube
+  142  docker ps
+  143  clear
+  144  cd downloads
+  145  cd /downloads
+  146  ls
+  147  cd ..
+  148  source /etc/profile.d/sonar-scanner.sh
+  149  env | grep PATH
+  150  clear
+  151  sonar-scanner -v
+  152  cd /downloads
+  153  ls
+  154  clear
+  155  wget https://github.com/bharathkumarreddys/simple-php-website/archive/refs/heads/master.zip
+  156  clear
+  157  ls
+  158  unzip master.zip
+  159  clear
+  160  ls
+  161  sonar-scanner   -Dsonar.projectKey=sample_sonar_php   -Dsonar.sources=.   -Dsonar.host.url=http://18.188.248.34:9000 \
+  162  clear
+  163  ls
+  164  cd simple-php-website-master
+  165  sonar-scanner   -Dsonar.projectKey=sample_sonar_php   -Dsonar.sources=.   -Dsonar.host.url=http://18.188.248.34:9000   -Dsonar.login=baf572809f7c95d760e8c9287a08e733d9c9b390
+  166  history
+  167  clear
+  168  cd ..
+  169  ls
+  170  cd simple-php-website-master
+  171  ls
+  172  git init
+  173  git status
+  174  clear
+  175  cd ..
+  176  ls
+  177  git commit
+  178  git init
+  179  git status
+  180  clear
+  181  ls
+  182  git add simple-php-website-master
+  183  clear
+  184  ls
+  185  git add .
+  186  cd simple-php-website-master
+  187  ls
+  188  clear
+  189  ls
+  190  git add .
+  191  git status
+  192  clear
+  193  ls
+  194  docker ps
+  195  clear
+  196  cd /downloads
+  197  ls
+  198  cd simple-php-website-master
+  199  git status
+  200  cler
+  201  clear
+  202  git commit -m "php1"
+  203  clear
+  204  git remote add origin git@codebasehq.com:abcdefgh/dockercicd/dockercicd.git
+  205  git push -u origin master
+  206  git config --global user.name "BHarath Reddy"
+  207  git config --global user.email bharath311522@gmail.com
+  208  git init
+  209  clear
+  210  git add .
+  211  git status
+  212  git remote add origin git@codebasehq.com:abcdefgh/dockercicd/dockercicd.git
+  213  git push -u origin master
+  214  cd ..
+  215  clear
+  216  ls
+  217  git status
+  218  git add .
+  219  clear
+  220  ls
+  221  git status
+  222  clear
+  223  ls
+  224  git commit -m "php1"
+  225  clear
+  226  git remote add origin git@codebasehq.com:abcdefgh/dockercicd/dockercicd.git
+  227  git push -u origin master
+  228  git clone git@codebasehq.com:abcdefgh/dockercicd/dockercicd.git
+  229  clear
+  230  docker ps
+  231  clear
+  232  cd /downloads
+  233  ls
+  234  git clone git@codebasehq.com:abcdefgh/abc/abc.git
+  235  sudo git clone git@codebasehq.com:abcdefgh/abc/abc.git
+  236  clear
+  237  cd usr
+  238  cd tmp
+  239  cd /tmp
+  240  git clone https://github.com/bharathkumarreddys/simple-php-website.git
+  241  ls
+  242  cd ..
+  243  cd downloads/
+  244  ls
+  245  clear
+  246  ls
+  247  git clone git init
+  248  clear
+  249  git config --global user.name "BHarath Reddy"
+  250  git config --global user.email bharath311522@gmail.com
+  251  git init
+  252  git add .
+  253  git commit -m "initial commit"
+  254  clean
+  255  clear
+  256  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  257  git push -u origin master
+  258  ssh -T git@codebasehq.com
+  259  git push -u origin master
+  260  clear
+  261  eval "$(ssh-agent -s)"
+  262  ssh-add -l -E md5
+  263  ssh-keygen -t rsa -b 4096 -C "bhkr3114@gmail.com"
+  264  clear
+  265  ssh-add -K ~/.ssh-/id_rsa
+  266  clear
+  267  cat ~/.ssh/id_rsa.pub
+  268  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  269  clear
+  270  git push -u origin master
+  271  clear
+  272  ls
+  273  cd simple-php-website-master
+  274  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  275  git push -u origin master
+  276  git add .
+  277  git commit -m "php2"
+  278  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  279  clear
+  280  git init
+  281  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  282  git push -u origin master
+  283  history
+  284  git push -u origin master
+  285  clear
+  286  ls
+  287  git add .
+  288  git status
+  289  git commit -m "hh"
+  290  git push -u origin master
+  291  git config --global user.name "BHarath Reddy"
+  292  git config --global user.email bharath311522@gmail.com
+  293  git init
+  294  clear
+  295  it add .
+  296  git add  .
+  297  git commit -m "intial"
+  298  clear
+  299  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  300  git push -u origin maste
+  301  clear
+  302  git push origin master --force
+  303  cd downloads
+  304  cd /downloads
+  305  ls
+  306  vi /opt/sonar-scanner/conf/sonar-scanner.properties
+  307  ls
+  308  cd simple-php-website-master
+  309  sonar-scanner   -Dsonar.projectKey=sample_sonar_php   -Dsonar.sources=.   -Dsonar.host.url=http://18.188.243.254:9000   -Dsonar.login=wordpress
+  310  clear
+  311  apt-get update
+  312  apt-get install unzip wget nodejs
+  313  clear
+  314  mkdir /downloads/sonarqube -p
+  315  cd /downloads/sonarqube
+  316  wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
+  317  unzip sonar-scanner-cli-4.2.0.1873-linux.zip
+  318  clear
+  319  vi /opt/sonar-scanner/conf/sonar-scanner.properties
+  320  sonar-scanner   -Dsonar.projectKey=sample_sonar_php   -Dsonar.sources=.   -Dsonar.host.url=http://18.188.243.254:9000   -Dsonar.login=wordpress
+  321  mv sonar-scanner-4.2.0.1873-linux /opt/sonar-scanner
+  322  docker ps
+  323  ls
+  324  sudo su
+  325  apt update
+  326  clear
+  327  cd downloads
+  328  cd /downloads
+  329  ls
+  330  cd simple-php-website-master
+  331  docker ps
+  332  clear
+  333  sonar-scanner -v
+  334  cd ..
+  335  apt-get update
+  336  apt-get install unzip wget nodejs
+  337  mkdir /downloads/sonarqube -p
+  338  cd /downloads/sonarqube
+  339  wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
+  340  unzip sonar-scanner-cli-4.2.0.1873-linux.zip
+  341  ls
+  342  clear
+  343  rm -rf sonar-scanner-cli-4.2.0.1873-linux.zip.3
+  344  rm -rf sonar-scanner-cli-4.2.0.1873-linux.zip.2
+  345  ls
+  346  rm -rf sonar-scanner-cli-4.2.0.1873-linux.zip.1
+  347  ls
+  348  cd /opt
+  349  ls
+  350  rm -rf sonar-scanner
+  351  ls
+  352  cd ..
+  353  cd downloads
+  354  ls
+  355  cd /sonarqube
+  356  ls
+  357  clear
+  358  cd sonarqube
+  359  ls
+  360  mv sonar-scanner-4.2.0.1873-linux /opt/sonar-scanner
+  361  vi /opt/sonar-scanner/conf/sonar-scanner.properties
+  362  vi /etc/profile.d/sonar-scanner.sh
+  363  reboot
+  364  docker ps
+  365  cd /downloads
+  366  ls
+  367  cd simple-php-website-master
+  368  clear
+  369  git init
+  370  git add .
+  371  git commit -m "kk"
+  372  ssh-keygen -t rsa -b 4096 -C "email@email.com"
+  373  clear
+  374  ssh-add -K ~/.ssh-/id_rsa
+  375  cat ~/.ssh/id_rsa.pub
+  376  git config --global user.name "BHarath Reddy"
+  377  git config --global user.email bharath311522@gmail.com
+  378  git init
+  379  git add .
+  380  clear
+  381  git commit -m "h"
+  382  git remote add origin git@codebasehq.com:abcdefgh/abc/abc.git
+  383  git push -u origin master
+  384  git fetch master
+  385  git fetch
+  386  git push -u origin master
+  387  git push--force -u origin master
+  388  git push --force -u origin master
+  389  git push -u origin master
+  390  clear
+  391  cd ..
+  392  ls
+  393  cd simple-php-website-master
+  394  ls
+  395  git push -u origin master
+  396  git push -f origin master
+  397  clear
+  398  git init
+  399  git add .
+  400  git commit -m "update"
+  401  git push
+  402  git branch
+  403  git push origin master
+  404  git fetch origin
+  405  git merge origin master
+  406  git push -f origin master
+  407  clear
+  408  git fetch origin
+  409  git merge origin master
+  410  git branch bharath
+  411  source /etc/profile.d/sonar-scanner.sh
+  412  vi /etc/profile.d/sonar-scanner.sh
+  413  env | grep PATH
+  414  sonar-scanner -v
+  415  ls
+  416  cd /downloads
+  417  ls
+  418  cd simple-php-website-master
+  419  clear
+  420  vi /etc/profile.d/sonar-scanner.sh
+  421  vi /opt/sonar-scanner/conf/sonar-scanner.properties
+  422  docke rps
+  423  docker ps
+  424  docker ps -a
+  425  docker start 0cd984f8143f
+  426  clear
+  427  netstat -tupln | grep 9000
+  428  netstat -tupln | grep docker
+  429  docker ps -a
+  430  docker start 0cd984f8143f
+  431  clear
+  432  vi /opt/sonar-scanner/conf/sonar-scanner.properties
+  433  sonar-scanner   -Dsonar.projectKey=sample_sonar_php   -Dsonar.sources=.   -Dsonar.host.url=http://18.188.248.34:9000   -Dsonar.login=f6a2eb0ba51092c2d01d78f62897cf5e01784df7
+  434  clear
+  435  history
